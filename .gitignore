@@ -1,0 +1,33 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Downloaded datasets, model artifacts and generated experiment CSVs
+data/
+datasets/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+part1_folds.csv
+part1_representatives.csv
+part2_hypotheses.csv
+
+# Local/editor artifacts
+.DS_Store
+.vscode/
+.idea/
+*.log

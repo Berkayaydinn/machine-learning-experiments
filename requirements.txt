@@ -1,0 +1,12 @@
+# Dependency inventory inferred from notebook imports.
+# Intentionally unpinned: original notebooks did not include a tested lockfile.
+# TensorFlow and PyTorch installation can require platform-specific wheels.
+jupyterlab
+ipykernel
+numpy
+pandas
+matplotlib
+scikit-learn
+tensorflow
+torch
+torchvision
